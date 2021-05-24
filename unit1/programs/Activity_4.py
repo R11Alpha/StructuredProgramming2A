@@ -1,7 +1,7 @@
 print("This is a great program xD\n")
 
-x1 = int(input("Introduce the first number\n"))
-x2 = int(input("Introduce the second number\n"))
+x1 = float(input("Introduce the first number\n"))
+x2 = float(input("Introduce the second number\n"))
 
 answer1 = input("Do you want to add?(Yes/No)\n")
 
