@@ -26,12 +26,12 @@ typedef struct mago{
 
 int main(){
 
-        Mago luis = { 100, 100, "Luis_Gerardo", sayHello, addTwoNumbers };
+        Mago mario = { 100, 100, "Mario_Canche", sayHello, addTwoNumbers };
         struct mago miguel = {200, 200, "Miguel"};
 
-        printf( "%s\n", luis.nombre  );
-        luis.Saludo( "Hola soy un mago!");
-        printf( "%d\n"  , luis.sumaDosNumeros(20,25)   );
+        printf( "%s\n", mario.nombre  );
+        mario.Saludo( "Hola soy un mago!");
+        printf( "%d\n"  , mario.sumaDosNumeros(20,25)   );
 
         fillArray( myIntArray, 5);
         printArray1D( myIntArray,  5   );
